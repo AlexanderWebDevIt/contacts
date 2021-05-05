@@ -1,0 +1,198 @@
+.container {
+    max-width: 1280px;
+    max-height: 800px;
+    height: 650px;
+    margin: 0 auto;
+    background-image: url("../Img/web-development-neko.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+.header {
+    text-align: center;
+}
+.wrapper {
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 4em;
+}
+
+.text {
+    color: gold;
+    height: 30px;
+    margin: 0;
+    font-size: 20px;
+
+}
+.block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 200px;
+    float: right;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+}
+.emptiness {
+    width: 80%;
+}
+.button {
+    width: 60px;
+    height: 60px;
+}
+.vk {
+    background-image: url("../Img/vk1.jpg");
+    background-size: cover;
+    background-position: center;
+    border: white 2px solid;
+    margin: 10px;
+}
+.facebook {
+    background-image: url("../Img/face.jpg");
+    background-size: cover;
+    background-position: center;
+    border: white 2px solid;
+    margin: 10px;
+}
+.instagram {
+    background-image: url("../Img/insta.png");
+    background-size: cover;
+    background-position: center;
+    border: white 2px solid;
+    margin: 10px;
+}
+.github {
+    background-image: url("../Img/github_logo.jpg");
+    background-size: cover;
+    background-position: center;
+    border: white 2px solid;
+    margin: 10px;
+}
+.tel {
+    background-color:transparent;
+    float: right;
+    margin: 30px 10%;
+}
+a {
+    text-decoration: none;
+    font-size: 24px;
+    color: gold;
+    cursor: pointer;
+}
+@media screen and (max-width: 991px) {
+    .button {
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .vk {
+        margin-top: 0px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .facebook {
+        margin-right: 10px;
+    }
+
+    .instagram {
+        margin-right: 10px;
+    }
+
+    .github {
+        margin-right: 10px;
+    }
+
+
+    .block {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        overflow: visible;
+        width: 100px;
+        margin-right: 10px;
+        margin-left: auto;
+        clear: none;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .vk {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .facebook {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .instagram {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .github {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 10px;
+        clear: none;
+    }
+
+    .button {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100px;
+        margin: 0px auto 10px;
+        float: none;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .block {
+        position: static;
+        left: auto;
+        top: auto;
+        margin-right: 15%;
+        right: 0%;
+        bottom: 0%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: auto;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+}
