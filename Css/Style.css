@@ -3,10 +3,10 @@
     max-height: 800px;
     height: 650px;
     margin: 0 auto;
-    background-image: url("../Img/web-development-neko.jpg") ;
+    background-image: url("../Img/Web-Developer.jpeg") ;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: cover;
 }
 .header {
     text-align: center;
@@ -19,10 +19,11 @@
 }
 
 .text {
-    color: gold;
+    color: black;
     height: 30px;
     margin: 0;
     font-size: 20px;
+    font-family: Cambria;
 
 }
 .block {
@@ -86,7 +87,7 @@
 a {
     text-decoration: none;
     font-size: 24px;
-    color: gold;
+    color: blue;
     cursor: pointer;
 }
 @media screen and (max-width: 991px) {
